@@ -1,0 +1,22 @@
+{
+  "name": "Progeto_IesbW",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/FelipeGoncalvesAlmeida/Progeto_IesbW",
+  "author": "FelipeGoncalvesAlmeida <160501854+FelipeGoncalvesAlmeida@users.noreply.github.com>",
+  "license": "MIT",
+  "script": {
+    "dev:server": "yarn ts-node-dev --respawn --ignore-watch node_modules src/server.ts",
+    "typeorn": "yarn ts-node-dev ./node_modules/typeorm/cli.sj"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.10",
+    "ts-node-dev": "1.1.8"
+  }
+}

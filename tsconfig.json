@@ -1,0 +1,14 @@
+
+{
+  "compilerOptions": {
+    "target": "es6",                                  
+    "module": "commonJS",                             
+    // "typeRoots": [],
+    "rootDirs": [
+      "./src",
+    ],
+    "outDir": "./dist",
+    "newLine": "lf",
+    "esModuleInterop": true,                          
+  }
+}
